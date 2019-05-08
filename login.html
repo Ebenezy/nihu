@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="Nihu">
+<meta name="description" content="Nihu">
+<meta name="keywords" content="Nihu">
+<link rel="shortcut icon" href="assets/img/nihu-favicon.png">
+<link rel="stylesheet" href="assets/css/music.css">
+<link rel="stylesheet" href="assets/css/subscribe.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link href="https://fonts.googleapis.com/css?family=Rasa:300,400,500,600,700" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/nihu.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+	<title>Nihu Login</title>
+</head>
+<body>
+  <div id="login">
+    <header>
+      <div class="nav-bar topnav" id="myTopnav">
+        <a href="index.html"><img src="assets/img/nihu-logo1.svg" class="active logo-music"></a>
+        <ul class="nav" id="myTopnav">
+          <li class="nav1"><a href="index.html">HOME</a></li>
+          <li class="nav1"><a href="recaps.html" > RECAPS</a></li>
+          <li class="nav1"><a href="entertainment.html">ENTERTAINMENT</a></li>
+          <li class="nav1"><a href="ourviews.html">PAST, PRESENT, FUTURE</a></li>
+          <li class="nav1"><a href="nihutv.html">NIHU TV</a></li>
+          <li class="nav1"><a href=""><i class="fa fa-search"></i></a></li>
+          <!-- <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li> -->
+        </ul>
+      </div>
+    </header>
+    <div class="bg-img hidden-sm-md">
+      
+    </div>
+    
+    <div class="nihulogin">
+        <div>
+          <div class="info">
+            <a href="index.html"><img src="assets/img/logo-login.svg"></a>
+            <p class="signin">Sign in here</p>
+            
+        </div>
+
+        <form>
+          <div class="enter">
+            <input class="form-control-login " name="email" type="email" placeholder="Email">
+          </div>
+          <div class="enter">
+            <input class="form-control-login " name="password" type="password" placeholder="Password"><span><i class="fas fa-eye-slash"></i></span>
+          </div>
+          
+          <button class="btn loginbtn2">Login</button>
+          <div class="">or continue with your social</div>
+          <ul>
+          <li><button class="btn fbbtn2"><span><i class="fab fa-facebook-f"></i> </span> Facebook</button></li>
+          <li><button class="btn googlebtn2"><span><i class="fab fa-google"></i> </span> Google</button></li>
+          </ul>
+          <ul>
+          	<li><a href="signup.html" class="signup">Sign up</a></li>
+          	<li>|</li>
+          	<li><a href="reset.html" class="reset-pw">Forgot Password?</a></li>
+      		</ul>
+        </form>
+        </div>
+    </div>
+  </div>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style >
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#login {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: 0px;
+}
+.bg-img{
+  width: 50%;
+  background-color: ;
+  float: left;
+  height: 100vh;
+  background-image: url(assets/img/customer_care_female.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.koviship-logo{
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: 50%;
+}
+.nihulogin{
+  width: 50%;
+  background-color: #fff;
+  float: right;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  padding: 0em 0.7em;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+	color: inherit;
+}
+form{
+  padding: 2em 7em;
+  text-align: center;
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+}
+.fa-eye-slash{
+	padding: 0.8em;
+	color: #1a1a1a;
+}
+.enter{
+  height: 50px;
+  background-color: #EAEAEA;
+  color: #000;
+  border: 1px solid #EAEAEA;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  font-size: 19px;
+}
+.form-control-login{
+	font-family: 'Montserrat', sans-serif;
+  background-color: #EAEAEA;
+  color: #000;
+  /*border: 1px solid #EAEAEA;*/
+  border-radius: 25px;
+  font-size: 16px;
+    float: left;
+    padding: 0.6em 1em;
+    width: 85% !important;
+}
+
+.loginbtn2{
+	width: 100%;
+  height: 50px;
+  background: #0288D1;
+  border: 1px solid #EAEAEA;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 0 8em;
+}
+
+.fbbtn2{
+	width: 11.3em;
+  height: 50px;
+  background-color: #3C5A99;
+  border: 1px solid #3C5A99;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 0 2em;
+}
+.googlebtn2{
+	width: 11.3em;
+  height: 50px;
+  background-color: #E61B31;
+  border: 1px solid #E61B31;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 0 2em;
+}
+
+.btn:hover{
+	color: #fff;
+  -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+    transition: -webkit-filter 1s;
+    transition: filter 1s;
+    transition: filter 1s,-webkit-filter 1s;
+}
+.form-control-login,input,.form-control-post,textarea,button,.form-control,.input-field:focus,.input-field:active {
+    outline:0px !important;
+    -webkit-appearance:none!important;
+    border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none !important;
+}
+.info{
+	line-height: 1.2em;
+  padding: 10em 8em 0 8em;
+}
+.signin{
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.signup:hover{
+  text-decoration: none;
+  color: #000;
+}
+.reset-pw:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .bg-img{
+    display: none;
+  }
+  .nihulogin{
+    width: 100%;
+  }
+.info{
+	line-height: 0;
+  padding: 4em 2em 0 2em;
+}
+.signin{
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+}
+.signin{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.2em 1em;
+}
+.fa-eye-slash {
+    padding: 10px 6px;
+    color: #1a1a1a;
+}
+form{
+  padding: 2em;
+  text-align: center;
+}
+.form-control-login {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EAEAEA;
+    color: #000;
+    border-radius: 25px;
+    font-size: 13px;
+    float: left;
+    padding: 0.6em 1em;
+    width: 60%;
+}
+.enter{
+    height: 44px;
+    background-color: #EAEAEA;
+    color: #000;
+    border: 1px solid #EAEAEA;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    font-size: 19px;
+}
+.loginbtn2{
+  height: 44px;
+  background: #0288D1;
+  border: 1px solid #EAEAEA;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0 7em;
+}
+.fbbtn2{
+	width: 9.3em;
+  height: 44px;
+  background-color: #3C5A99;
+  color: #000;
+  border: 1px solid #3C5A99;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0 1em;
+}
+.googlebtn2{
+	width: 9.3em;
+  height: 44px;
+  background-color: #E61B31;
+  color: #000;
+  border: 1px solid #E61B31;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0 1em;
+}
+
+}
+</style>
+
+<!-- Trigger/Open The Modal -->
+    <button id="myBtn" style="display: none">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+        <div class="modal-content">
+      <ul class="subscribe">
+      
+        <li class="subscribe1" style="">
+          <!-- <img src="assets/img/newsletter-popup.png"> -->
+        </li>
+
+        <li class="subscribe2">
+          <ul>
+            <li class="">
+              <span class="close">&times;</span>
+              <form class="subscribe3">
+                <h1 class="hey_friend">Hey Friend! Before You Go…</h1>
+                <p class="hey_friend2">Get the best viral stories straight into your inbox before everyone else!</p>
+                      <div class="enter1">
+                        <input class="form-control1 " name="email" type="email" placeholder="Your Email Address">
+                    </div>
+                    <button class="btn loginbtn1">SIGN UP</button>
+                    <div class="worry1">Don't worry, we don't spam</div>                        
+                  </form>
+              </li>
+                
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div> 
+
+<script>
+  setTimeout(() => document.getElementById('myBtn').click(), 5000);
+  // document.getElementById('myBtn').click();
+</script>   
+
+<script src="assets/js/nihu.js"></script>
+
+
+</body>
+</html>
